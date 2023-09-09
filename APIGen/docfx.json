@@ -1,0 +1,23 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "UnityAppFlavor.Editor.csproj",
+            "UnityAppFlavor.csproj"
+          ],
+          "src": "../UnityAppFlavor/"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "namespaceLayout": "flattened",
+      "filter": "namespace_ignore.yml"
+    }
+  ],
+  "globalMetadata": {
+    "remoteRepositoryUrl": "https://github.com/LiuOcean/UnityAppFlavor"
+  }
+}
