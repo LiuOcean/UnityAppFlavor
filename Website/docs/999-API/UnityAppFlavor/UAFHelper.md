@@ -6,7 +6,7 @@ sidebar_label: UAFHelper
 
 
 ###### **Assembly**: UnityAppFlavor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L16)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L16)
 ```csharp title="Declaration"
 [UsedImplicitly]
 public static class UAFHelper
@@ -14,7 +14,7 @@ public static class UAFHelper
 ## Methods
 ### GetCurrencyInfo(string)
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L57)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L57)
 ```csharp title="Declaration"
 public static UAFCultureInfo GetCurrencyInfo(string symbol)
 ```
@@ -31,7 +31,7 @@ public static UAFCultureInfo GetCurrencyInfo(string symbol)
 
 ### GetLanguageCultureInfo(SystemLanguage)
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L63)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L63)
 ```csharp title="Declaration"
 public static UAFCultureInfo GetLanguageCultureInfo(SystemLanguage language)
 ```
@@ -48,7 +48,7 @@ public static UAFCultureInfo GetLanguageCultureInfo(SystemLanguage language)
 
 ### Localize(double, int)
 根据货币比例进行转换
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L75)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Runtime/UAFHelper.cs#L75)
 ```csharp title="Declaration"
 public static string Localize(this double value, int keep_decimal = 2)
 ```

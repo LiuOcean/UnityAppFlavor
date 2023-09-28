@@ -6,14 +6,14 @@ sidebar_label: GenGoogleAD_GradleRebuildTask
 
 
 ###### **Assembly**: UnityAppFlavor.Editor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/GenGoogleAD_GradleRebuildTask.cs#L3)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/GenGoogleAD_GradleRebuildTask.cs#L3)
 ```csharp title="Declaration"
 public class GenGoogleAD_GradleRebuildTask : AGradleRebuildTask
 ```
 ## Methods
 ### Handle(ref string, ref string, ref string)
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/GenGoogleAD_GradleRebuildTask.cs#L9)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/GenGoogleAD_GradleRebuildTask.cs#L9)
 ```csharp title="Declaration"
 public override void Handle(ref string unity_lib_gradle, ref string launch_gradle, ref string properties_file)
 ```

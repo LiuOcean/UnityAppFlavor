@@ -6,7 +6,7 @@ sidebar_label: IUAFAdaptor
 
 
 ###### **Assembly**: UnityAppFlavor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Runtime/Interfaces/IUAFAdaptor.cs#L4)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Runtime/Interfaces/IUAFAdaptor.cs#L4)
 ```csharp title="Declaration"
 public interface IUAFAdaptor : IUAFCaller, IUAFCallback, IUAFNativeCallback
 ```

@@ -7,14 +7,14 @@ description: "https://github.com/gilzoide/unity-gradle-wrapper"
 https://github.com/gilzoide/unity-gradle-wrapper
 
 ###### **Assembly**: UnityAppFlavor.Editor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/MakeWrapper_GradleRebuildTask.cs#L11)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/MakeWrapper_GradleRebuildTask.cs#L11)
 ```csharp title="Declaration"
 public class MakeWrapper_GradleRebuildTask : AGradleRebuildTask
 ```
 ## Methods
 ### Handle(ref string, ref string, ref string)
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/MakeWrapper_GradleRebuildTask.cs#L18)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/MakeWrapper_GradleRebuildTask.cs#L18)
 ```csharp title="Declaration"
 public override void Handle(ref string unity_lib_gradle, ref string launch_gradle, ref string properties_file)
 ```

@@ -7,7 +7,7 @@ description: "暴露给外部处理的回调内容"
 暴露给外部处理的回调内容
 
 ###### **Assembly**: UnityAppFlavor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Runtime/Interfaces/IUAFCallback.cs#L7)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Runtime/Interfaces/IUAFCallback.cs#L7)
 ```csharp title="Declaration"
 public interface IUAFCallback
 ```

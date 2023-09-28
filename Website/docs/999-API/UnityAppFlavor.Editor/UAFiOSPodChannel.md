@@ -6,7 +6,7 @@ sidebar_label: UAFiOSPodChannel
 
 
 ###### **Assembly**: UnityAppFlavor.Editor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L9)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L9)
 ```csharp title="Declaration"
 [Serializable]
 public class UAFiOSPodChannel
@@ -14,7 +14,7 @@ public class UAFiOSPodChannel
 ## Fields
 ### channel
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L17)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L17)
 ```csharp title="Declaration"
 [FormerlySerializedAs("name")]
 [VerticalGroup("基础配置", 0)]
@@ -24,7 +24,7 @@ public string channel
 ```
 ### pods
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L23)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L23)
 ```csharp title="Declaration"
 [VerticalGroup("Pod", 0)]
 [HideLabel]
@@ -35,7 +35,7 @@ public List<UAFiOSPod> pods
 ## Methods
 ### Pods2String()
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L25)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/iOS/UAFiOSPod.cs#L25)
 ```csharp title="Declaration"
 public string Pods2String()
 ```

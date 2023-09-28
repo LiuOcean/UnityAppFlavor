@@ -6,21 +6,21 @@ sidebar_label: AGradleRebuildTask
 
 
 ###### **Assembly**: UnityAppFlavor.Editor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L5)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L5)
 ```csharp title="Declaration"
 public abstract class AGradleRebuildTask
 ```
 ## Fields
 ### _setting
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L7)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L7)
 ```csharp title="Declaration"
 protected readonly UAFEditorSetting _setting
 ```
 ## Methods
 ### Handle(ref string, ref string, ref string)
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L9)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L9)
 ```csharp title="Declaration"
 public abstract void Handle(ref string unity_lib_gradle, ref string launch_gradle, ref string properties_file)
 ```
@@ -35,7 +35,7 @@ public abstract void Handle(ref string unity_lib_gradle, ref string launch_gradl
 
 ### _GradleReplace(string, string, string, string)
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L11)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/BuildPhase/Android/GenTask/AGradleRebuildTask.cs#L11)
 ```csharp title="Declaration"
 protected static string _GradleReplace(string gradle, string mark, string replace, string comment = "//")
 ```

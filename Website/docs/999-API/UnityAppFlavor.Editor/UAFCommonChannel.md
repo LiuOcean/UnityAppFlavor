@@ -6,7 +6,7 @@ sidebar_label: UAFCommonChannel
 
 
 ###### **Assembly**: UnityAppFlavor.Editor.dll
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L6)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L6)
 ```csharp title="Declaration"
 [Serializable]
 public class UAFCommonChannel
@@ -14,7 +14,7 @@ public class UAFCommonChannel
 ## Fields
 ### alias
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L12)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L12)
 ```csharp title="Declaration"
 [Required]
 [VerticalGroup("基础配置", 0)]
@@ -23,7 +23,7 @@ public string alias
 ```
 ### name
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L17)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L17)
 ```csharp title="Declaration"
 [Required]
 [VerticalGroup("基础配置", 0)]
@@ -32,7 +32,7 @@ public string name
 ```
 ### bundle_name
 
-###### [View Source](git@github.com:LiuOcean/UnityAppFlavor.git/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L22)
+###### [View Source](https://github.com/LiuOcean/UnityAppFlavor/blob/main/UnityAppFlavor/Assets/Editor/Settings/Common/UAFCommonChannel.cs#L22)
 ```csharp title="Declaration"
 [Required]
 [VerticalGroup("其他配置", 0)]
