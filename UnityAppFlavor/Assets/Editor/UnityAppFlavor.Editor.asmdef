@@ -1,7 +1,10 @@
 {
     "name": "UnityAppFlavor.Editor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:75fb0f7ea74b144abb7ee6cc60acfbd6",
+        "GUID:00b84bb9dcc8346179a03a0f5d71a3ed"
+    ],
     "includePlatforms": [
         "Editor"
     ],

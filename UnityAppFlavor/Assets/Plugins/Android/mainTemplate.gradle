@@ -1,0 +1,94 @@
+apply plugin: 'com.android.library'
+**APPLY_PLUGINS**
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    
+    // 此处并不希望 unity 参与 aar 文件配置的生成 因此移除了 DEPS
+    // SHARE START
+    // 此处会追加共享的 aar 文件
+    // SHARE END
+}
+
+android {
+    compileSdkVersion **APIVERSION**
+    buildToolsVersion '**BUILDTOOLS**'
+
+    flavorDimensions "game"
+    productFlavors{
+        // 海外渠道
+        oversea{
+            dimension "game"
+            buildConfigField("String", "CHANNEL", '"oversea"')
+            // OVERSEA_GOOGLE_AD START
+            // 此处会追加 GOOGLE_AD 的配置
+            // OVERSEA_GOOGLE_AD END
+            dependencies {
+                // 在海外渠道中, 不使用 libs 目录下的 jar 包
+                overseaImplementation fileTree(dir: 'src/oversea/libs', include: ['*.jar'])
+// 像下面这样引用一个 maven 包                
+//              overseaImplementation 'androidx.appcompat:appcompat:1.2.0'
+
+// 此处会根据 ProjectSetting/UAF 配置中 lib 相关的内容, 进行动态替换
+// OVERSEA 和 INLAND 是 Demo 提供的默认行为, 请根据实际情况进行修改
+
+// OVERSEA START
+// 此处会追加海外渠道的依赖
+// OVERSEA END
+            }
+        }
+        inland{
+            dimension "game"
+            buildConfigField("String", "CHANNEL", '"inland"')
+            // INLAND_GOOGLE_AD START
+            // 此处会追加 GOOGLE_AD 的配置
+            // INLAND_GOOGLE_AD END
+            dependencies {
+                inlandImplementation fileTree(dir: 'src/inland/libs', include: ['*.jar']) 
+// 像下面这样引用一个 maven 包
+//              inlandImplementation 'com.android.support:appcompat-v7:28.0.0'
+
+// INLAND START
+// 此处会追加国内渠道的依赖
+// INLAND END
+            }
+        }
+    }
+    
+    sourceSets {
+        // SOURCE START
+        // 此处根据渠道不同, 选择不同的源码目录
+        // SOURCE END        
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion **MINSDKVERSION**
+        targetSdkVersion **TARGETSDKVERSION**
+        ndk {
+            abiFilters **ABIFILTERS**
+        }
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }**PACKAGING_OPTIONS**
+}**REPOSITORIES**
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**
+
+// IL2CPP START
+// IL2CPP END

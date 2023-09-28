@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d232b112ef439692ca7e8b464756b6, type: 3}
+  m_Name: UAFEditorSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: android_custom_param
+      Entry: 6
+      Data: 
+    - Name: ios_custom_param
+      Entry: 6
+      Data: 
+  gradle_version: 6.1.1
+  _android_rest_type: 15
+  java_transfers: []
+  lib_transfers: []
+  share_lib_transfers: []
+  apply_plugins: []
+  channels: []
+  _ios_rest_type: 3
+  provisions: []
+  pod_ios_version: 
+  pod_source: 
+  ios_pods: []
+  ios_capabilities: []
