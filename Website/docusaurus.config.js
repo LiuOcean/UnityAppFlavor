@@ -59,8 +59,8 @@ const config = {
       navbar: {
         title: 'UnityAppFlavor',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'UAF',
+          src: 'img/logo.png',
         },
         items: [
           {

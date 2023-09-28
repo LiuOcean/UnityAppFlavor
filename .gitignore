@@ -71,3 +71,5 @@ UnityAppFlavor/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 UnityAppFlavor/[Aa]ssets/[Ss]treamingAssets/aa.meta
 UnityAppFlavor/[Aa]ssets/[Ss]treamingAssets/aa/*
 *.DS_Store
+*.idea
+UnityAppFlavor/UserSettings/
